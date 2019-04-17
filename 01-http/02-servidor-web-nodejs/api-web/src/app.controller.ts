@@ -21,7 +21,7 @@ export class AppController {
   }
   @Delete('/salut-monde')
   salutMonde(){
-    return 'salut monde en delet';
+    return 'salut monde en delete';
   }
   @Get('/adivina')
   adivina(@Headers() headers): string {
