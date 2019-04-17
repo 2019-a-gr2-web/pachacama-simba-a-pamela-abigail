@@ -1,5 +1,5 @@
-{//siempre comienza con llaves
-  "llave": "valor", //solo funciona con comillas doble
+{
+  "llave": "valor",
   "key": "value",
   "nombre": "Pamela",
   "edad": 29,
@@ -16,8 +16,3 @@
     }
   ]
 }
-/*cada llave valor se cierra con coma .. menos el ultimo
-*todos los string son con comillas doble
-*en los archivps json no existen los underfine
-*los json pueden soportar o arreglos json u objetos json
-*/

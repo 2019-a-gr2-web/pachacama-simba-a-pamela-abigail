@@ -35,27 +35,27 @@ export class AppController {
     }
 
     /***
-    //variables como consts
-    let nombre: string='Pamela' ;//String
-    let edad=29 ; //number
-    let sueldo=1.20 ;//number
-    let casado=false ;//boolean
-    let hijos=null ;//null
-    let  alias=undefine;//underfine
-    ***/
+     //variables como consts
+     let nombre: string='Pamela' ;//String
+     let edad=29 ; //number
+     let sueldo=1.20 ;//number
+     let casado=false ;//boolean
+     let hijos=null ;//null
+     let  alias=undefine;//underfine
+     ***/
 
   }
 
 
-/*
-*Segmento inicial: / api
-* 1) Segmento Accion: GET 'hello-world' --> 'Hello world'
-* 2) Segmento Accion:Post 'hola-mundo' --> 'Hola mundo'
-* 3) Segmento Accion:PUT 'hola-mon'-->'Hola mon'
-* 4) Segmento Accion:DELETE 'salut-monde'-->'salut Monde
- */
+  /*
+  *Segmento inicial: / api
+  * 1) Segmento Accion: GET 'hello-world' --> 'Hello world'
+  * 2) Segmento Accion:Post 'hola-mundo' --> 'Hola mundo'
+  * 3) Segmento Accion:PUT 'hola-mon'-->'Hola mon'
+  * 4) Segmento Accion:DELETE 'salut-monde'-->'salut Monde
+   */
   /**@NombreDecorador() //Decorador-> funcion
-  class usuario{
+   class usuario{
     @atributoPublico; //atributo
     private atributoPrivado;
     protected atributoProtegido;
@@ -72,10 +72,10 @@ export class AppController {
   private metodoPrivado(){}
     protected metdoProtegifo(){}
 
-**/
+   **/
 }
 
-const json=[
+/**const json=[
   {
     llave: 'valor', //solo funciona con comillas doble
     "key": "value",
@@ -92,18 +92,19 @@ const json=[
       {
         "nombre": "Pamela"
       },
-  ]
+    ]
   }
 ];
 
 let objeto={
   propiedad:'valor',
   propiedadDos:'valor2'
-};
-objeto.propiedad//valor
+};**/
+/**objeto.propiedad//valor
 objeto.propiedadDos//valor2
 
 objeto.propiedadTres='valor3';
 objeto['propiedadTres']='valor3';
 delete objeto.propiedadTes;//destruir
 objeto.propiedadTres=undefined;//destruir
+ **/
