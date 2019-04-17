@@ -1,4 +1,5 @@
-import { Controller, Get, Post, HttpCode, Put,Delete, Headers } from '@nestjs/common';
+// @ts-ignore
+import { Controller, Get, Post, HttpCode, Put,Delete, Headers, Query, Param, Body, Request,Response} from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller('/api')
@@ -45,8 +46,54 @@ export class AppController {
      ***/
 
   }
+  @Post('/consultar')
+  consultar(@Query() queryParams){
+    if(queryParams.nombre){
+      return `Hola ${queryParams.nombre}`
+    }else{
+      return 'Hola extraño';
+    }
+  }
 
+  @Get('/ciudad/:idCiudad')
+  ciudad(@Param() parametrosRuta){
+    switch(parametrosRuta.idCiudad.toLowerCase()){
+      case 'quito':
+        return 'Que fue';
+      case 'guayaquil':
+        return 'Que maah ñañoshh';
+      default:
+        return 'hola';
 
+    }
+
+  }
+
+  @Post('registroComida')
+  registroComida(
+      @Body() parametrosCuerpo,
+      @Response() response
+){
+    if(parametrosCuerpo.nombre && parametrosCuerpo.cantidad){
+      const cantidad=Number(parametrosCuerpo.cantidad);
+      if(cantidad>1){
+        response.set('Premio','Fanesca');
+      }
+      return response.send({mensaje:'Registro Creado'});
+    } else {
+      return response.status(400).send({mensaje:'Error, no envia nombre o cantidad', error: 400});
+    }
+  }
+  @Get('/semilla')
+  semilla(@Request() request){
+    console.log(request.cookies);
+    const cookies = request.cookies;
+    if(cookies.micookie){
+      return 'ok'
+    }else{
+      return ':('
+    }
+  }
   /*
   *Segmento inicial: / api
   * 1) Segmento Accion: GET 'hello-world' --> 'Hello world'

@@ -19,7 +19,7 @@ let AppController = class AppController {
         this.appService = appService;
     }
     helloWorld() {
-        return this.appService.getHello();
+        return 'Hello World';
     }
     holaMundo() {
         return 'hola mundo en post';
@@ -28,7 +28,7 @@ let AppController = class AppController {
         return 'Hola Mon en put';
     }
     salutMonde() {
-        return 'salut monde';
+        return 'salut monde en delete';
     }
     adivina(headers) {
         console.log('Headers:', headers);
@@ -40,6 +40,43 @@ let AppController = class AppController {
         else {
             return ':(';
         }
+    }
+    consultar(queryParams) {
+        if (queryParams.nombre) {
+            return `Hola ${queryParams.nombre}`;
+        }
+        else {
+            return 'Hola extraño';
+        }
+    }
+    ciudad(parametrosRuta) {
+        switch (parametrosRuta.idCiudad.toLowerCase()) {
+            case 'quito':
+                return 'Que fue';
+            case 'guayaquil':
+                return 'Que maah ñañoshh';
+            default:
+                return 'hola';
+        }
+    }
+    registroComida(parametrosCuerpo, response) {
+        if (parametrosCuerpo.nombre && parametrosCuerpo.cantidad) {
+            const cantidad = Number(parametrosCuerpo.cantidad);
+            if (cantidad > 1) {
+                response.set('Premio', 'Fanesca');
+            }
+            return response.send({ mensaje: 'Registro Creado' });
+        }
+        else {
+            return response.status(400).send({ mensaje: 'Error, no envia nombre o cantidad', error: 400 });
+        }
+    }
+    semilla(request) {
+        console.log(request.cookies);
+        const noHayCookies = !request.cookies;
+        if (noHayCookies) {
+        }
+        return 'ok';
     }
 };
 __decorate([
@@ -73,6 +110,35 @@ __decorate([
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", String)
 ], AppController.prototype, "adivina", null);
+__decorate([
+    common_1.Post('/consultar'),
+    __param(0, common_1.Query()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], AppController.prototype, "consultar", null);
+__decorate([
+    common_1.Get('/ciudad/:idCiudad'),
+    __param(0, common_1.Param()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], AppController.prototype, "ciudad", null);
+__decorate([
+    common_1.Post('registroComida'),
+    __param(0, common_1.Body()),
+    __param(1, common_1.Response()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Object]),
+    __metadata("design:returntype", void 0)
+], AppController.prototype, "registroComida", null);
+__decorate([
+    common_1.Get('/semilla'),
+    __param(0, common_1.Request()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], AppController.prototype, "semilla", null);
 AppController = __decorate([
     common_1.Controller('/api'),
     __metadata("design:paramtypes", [app_service_1.AppService])
