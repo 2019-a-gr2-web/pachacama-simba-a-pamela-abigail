@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="0a279380-5fa0-48b0-9760-a5efb57af1be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/dist/app.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/dist/app.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/dist/app.controller.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/dist/app.controller.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/dist/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/dist/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/dist/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/main.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,10 +29,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            <state relative-caret-position="-1121">
+              <caret line="90" column="25" lean-forward="true" selection-start-line="90" selection-start-column="25" selection-end-line="91" selection-end-column="17" />
               <folding>
                 <element signature="e#0#86#0" expanded="true" />
+                <element signature="n#!!block;n#helloWorld#0;n#AppController#0" />
+                <element signature="e#392#405#0" />
+                <element signature="n#!!block;n#holaMundo#0;n#AppController#0" />
+                <element signature="n#!!block;n#holaMon#0;n#AppController#0" />
+                <element signature="n#!!block;n#salutMonde#0;n#AppController#0" />
+                <element signature="n#!!block;n#adivina#0;n#AppController#0" />
+                <element signature="e#873#899#0" />
+                <element signature="e#903#929#0" />
+                <element signature="e#935#1178#0" />
+                <element signature="n#!!block;n#consultar#0;n#AppController#0" />
+                <element signature="e#1266#1318#0" />
+                <element signature="e#1320#1334#0" />
+                <element signature="e#1440#1462#0" />
+                <element signature="e#1493#1548#0" />
+                <element signature="e#1539#1591#0" />
+                <element signature="e#1614#1645#0" />
               </folding>
             </state>
           </provider>
@@ -48,11 +71,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/fin.html" />
-        <option value="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/main.ts" />
         <option value="$PROJECT_DIR$/01-http/01-servidor-web-estatico/inicio.html" />
         <option value="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/package.json" />
         <option value="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/.gitignore" />
         <option value="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/ejemplo.json" />
+        <option value="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/main.ts" />
         <option value="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.controller.ts" />
       </list>
     </option>
@@ -69,6 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,11 +118,18 @@
               <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
               <item name="api-web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
+              <item name="01-http" type="462c0819:PsiDirectoryNode" />
+              <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="api-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,27 +203,35 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19877000" />
+    <option name="totallyTimeSpent" value="24746000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50127226" side_tool="true" weight="0.24959083" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49872774" visible="true" weight="0.22693452" />
-      <window_info id="Structure" order="2" sideWeight="0.50127226" side_tool="true" weight="0.24959083" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.41571194" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.5908347" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32977098" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49593496" visible="true" weight="0.22655007" />
+      <window_info id="Structure" order="2" sideWeight="0.50406504" side_tool="true" weight="0.22655007" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32897863" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.5902613" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32897863" />
+      <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32897863" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29216152" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -211,16 +250,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-http/01-servidor-web-estatico/inicio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -268,12 +297,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="-1121">
+          <caret line="90" column="25" lean-forward="true" selection-start-line="90" selection-start-column="25" selection-end-line="91" selection-end-column="17" />
           <folding>
             <element signature="e#0#86#0" expanded="true" />
+            <element signature="n#!!block;n#helloWorld#0;n#AppController#0" />
+            <element signature="e#392#405#0" />
+            <element signature="n#!!block;n#holaMundo#0;n#AppController#0" />
+            <element signature="n#!!block;n#holaMon#0;n#AppController#0" />
+            <element signature="n#!!block;n#salutMonde#0;n#AppController#0" />
+            <element signature="n#!!block;n#adivina#0;n#AppController#0" />
+            <element signature="e#873#899#0" />
+            <element signature="e#903#929#0" />
+            <element signature="e#935#1178#0" />
+            <element signature="n#!!block;n#consultar#0;n#AppController#0" />
+            <element signature="e#1266#1318#0" />
+            <element signature="e#1320#1334#0" />
+            <element signature="e#1440#1462#0" />
+            <element signature="e#1493#1548#0" />
+            <element signature="e#1539#1591#0" />
+            <element signature="e#1614#1645#0" />
           </folding>
         </state>
       </provider>
