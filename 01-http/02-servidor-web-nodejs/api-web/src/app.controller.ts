@@ -1,13 +1,13 @@
 import { Controller, Get, Post, HttpCode, Put,Delete, Headers } from '@nestjs/common';
 import { AppService } from './app.service';
 
-@Controller(`/api`)
+@Controller('/api')
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get('/hello-world')
   helloWorld(): string {
-    return this.appService.getHello();
+    return 'Hello World';
   }
 // Post http://localhost:300/api
   @Post('/hola-mundo')                   //Metodo Http
@@ -21,7 +21,7 @@ export class AppController {
   }
   @Delete('/salut-monde')
   salutMonde(){
-    return 'salut monde';
+    return 'salut monde en delet';
   }
   @Get('/adivina')
   adivina(@Headers() headers): string {
