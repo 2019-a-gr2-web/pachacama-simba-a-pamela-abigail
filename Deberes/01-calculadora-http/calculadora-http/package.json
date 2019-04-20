@@ -1,5 +1,5 @@
 {
-  "name": "api-web",
+  "name": "calculadora-http",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -23,7 +23,6 @@
     "@nestjs/common": "^6.0.0",
     "@nestjs/core": "^6.0.0",
     "@nestjs/platform-express": "^6.0.0",
-    "cookie-parser": "^1.4.4",
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.2",
     "rxjs": "^6.3.3"
