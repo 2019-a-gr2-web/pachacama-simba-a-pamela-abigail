@@ -119,7 +119,7 @@ export class AppController {
           const numero1 = Number(headers.numero1);
           const numero2 = Number(headers.numero2);
           const resultSuma = numero1 + numero2;
-          response.cookie(headers.nombre);
+          response.cookie('nombre', headers.nombre);
           return response.send({
             nombreUsuario: headers.nombre,
             resultadoSuma: resultSuma

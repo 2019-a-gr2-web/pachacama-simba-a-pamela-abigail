@@ -125,6 +125,14 @@ export class AppController {
       return response.send(':(');
     }
   }
+
+  @Get('inicio')
+  inicio(@Response() res){
+    return res.render('inicio');
+  }
+
+
+
   /*
   *Segmento inicial: / api
   * 1) Segmento Accion: GET 'hello-world' --> 'Hello world'
@@ -186,3 +194,84 @@ objeto['propiedadTres']='valor3';
 delete objeto.propiedadTes;//destruir
 objeto.propiedadTres=undefined;//destruir
  **/
+
+/* Variables JS
+variables ? const, var, let
+string number
+
+ */
+function holaMundo() {
+  console.log('hola mundo');
+}
+const respuestaHolaMundo=holaMundo();
+console.log('Resp hola mundo; ', respuestaHolaMundo)
+function suma(a:number,b:number) {
+  return a+b;
+}
+const respuestaSuma=suma(2, 3);
+console.log('Resp suma; ', respuestaSuma)
+
+//condicional
+if(true){
+  console.log('falso');
+
+}else{
+  console.log('falso');
+}
+if(null){//falsy
+  console.log('verdadero');
+}else{
+  console.log('falso');
+}
+
+//operadores de arreglos JS
+const  arreglo = [1,'A',true,null,{},[]];
+
+const arreglosnumeros=[1,2,3,4,5,6];
+// 1) impriman en consola todos los elementos
+//2) sumen 2 numeros
+const arregloNumerosMap=[1,2,3,4,5,6];
+const rMap = arregloNumerosMap.map(
+    // devolver el nuevo valor de ese elmenento
+    (valorActual)=>{
+      const esPar=valorActual %2==0;
+      if(esPar){
+        const  nuevoValor = valorActual +2;
+        return nuevoValor;
+      }else{
+        const nuevoValor = valorActual+1;
+        return nuevoValor;
+      }
+}
+);
+// encuentren si hay el numeo4
+const arregloNumerosFind=[1,2,3,4,5,6];
+const rFind=arregloNumerosFind.find((valorActual)=>{
+  return valorActual == 4;
+});
+console.log(`Respuesta Find: ${rFind}`);
+// filten llos numerosmenires de 5
+const arregloNumerosFilter=[1,2,3,4,5,6];
+const rFilter=arregloNumerosFilter.filter((valorActual)=>{
+  return valorActual < 5;
+});
+console.log(`Respuesta Find: ${rFilter}`);
+//todos los valores positivos
+//alguno calorf en menie  seguir haciendo
+// sumen todos lisa
+
+//1.1 sumen 10 a
+//1.2 filten los mayorea a 15
+// 1,3 si hay algun numer de 30
+/*
+const arregloNumerosForEacha[1,2,3,4,5,6];
+arregloNumerosForEacha.forEach(valorActual. omdice){
+  function (calorActual, indice.err
+)
+  ()
+  e
+
+
+}
+
+*/
