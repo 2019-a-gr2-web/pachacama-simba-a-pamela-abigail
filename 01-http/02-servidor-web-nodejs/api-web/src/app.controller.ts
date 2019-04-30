@@ -232,7 +232,7 @@ const arreglosnumeros=[1,2,3,4,5,6];
 //2) sumen 2 numeros
 const arregloNumerosMap=[1,2,3,4,5,6];
 const rMap = arregloNumerosMap.map(
-    // devolver el nuevo valor de ese elmenento
+    // devolver el nuevo valor de ese elmenento; transformar en un arreglo
     (valorActual)=>{
       const esPar=valorActual %2==0;
       if(esPar){
@@ -255,14 +255,61 @@ const arregloNumerosFilter=[1,2,3,4,5,6];
 const rFilter=arregloNumerosFilter.filter((valorActual)=>{
   return valorActual < 5;
 });
-console.log(`Respuesta Find: ${rFilter}`);
-//todos los valores positivos
-//alguno calorf en menie  seguir haciendo
-// sumen todos lisa
+console.log(`Respuesta Filter: ${rFilter}`);
+//todos los valores  son positivos true false
+const arregloNumerosEvery=[1,2,3,4,5,6];
+const rEvery=arregloNumerosEvery.every((valorAtual)=>{ //and
+  return valorAtual > 0 ;
+});
+console.log(`Respuesta Every: ${rEvery}`); //true
 
-//1.1 sumen 10 a
-//1.2 filten los mayorea a 15
-// 1,3 si hay algun numer de 30
+//algun valor es menor  que 2
+const arregloNumerosSome=[1,2,3,4,5,6];
+const rSome =arregloNumerosSome.some((valorActual)=>{
+return valorActual < 2 ;
+}
+);
+console.log(`Respuesta Some: ${rSome}`); //true
+
+// sumen todos los valores
+const arregloNumerosReduce=[1,2,3,4,5,6];
+const valorDondeEmpiezaCalculo=0;
+const rReduce= arregloNumerosReduce.reduce((acumulado, valorActual)=>{
+  if(acumulado<4){
+    return acumulado+valorActual*1.1+5;
+  }else{
+    return acumulado+valorActual*1.15+3;
+  }
+},valorDondeEmpiezaCalculo
+);
+console.log(`Respuesta Reduce: ${rReduce}`); //existe el reduce right el arreglo comienza desde la derecha
+
+//<4
+//10%+5
+//>=4
+//15% +3
+
+//resten todos los valores de 100
+const arregloNumerosReduce2=[1,2,3,4,5,6];
+const valorDondeEmpiezaCalculo2=100;
+const rReduce2= arregloNumerosReduce2.reduce((acumulado, valorActual)=>{
+        return acumulado-valorActual;
+    },valorDondeEmpiezaCalculo2
+);
+console.log(`Respuesta Reduce2: ${rReduce2}`); //existe el reduce right el arreglo comienza desde la derecha
+
+//1.1 sumen 10 a todos
+//1.2 filtren los mayorea a 15
+// 1.3 si hay algun numero mayor 30
+const arregloEjercicio=[1,2,3,4,5,6];
+arregloEjercicio.map((valorActual)=>{
+  return valorActual + 10;
+}).filter((valorActual)=>{
+  return valorActual > 15;
+}).some((valorActual)=>{
+  return valorActual>30;
+});
+
 /*
 const arregloNumerosForEacha[1,2,3,4,5,6];
 arregloNumerosForEacha.forEach(valorActual. omdice){
