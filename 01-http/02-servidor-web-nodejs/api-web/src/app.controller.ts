@@ -126,7 +126,7 @@ export class AppController {
     }
   }
 
-  @Get('inicio')
+  @Get('inicio')//end point
   inicio(@Response() res){
     return res.render('inicio',{ estavivo:true});
   }
@@ -137,7 +137,12 @@ export class AppController {
 
         });
     }
+    @Get('estilos')
+    estilos(@Response() res){
+        return res.render('peliculas/estilos',{
 
+        });
+    }
 
 
   /*
