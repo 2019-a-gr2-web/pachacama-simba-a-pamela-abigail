@@ -5,6 +5,8 @@ import { AppService } from './app.service';
 import * as Joi from '@hapi/joi'
 @Controller('/api')
 export class AppController {
+    arregloUsuario =[];
+
   constructor(private readonly appService: AppService) {}
 
   @Get('/hello-world')
@@ -143,6 +145,7 @@ export class AppController {
 
         });
     }
+
 
 
   /*
