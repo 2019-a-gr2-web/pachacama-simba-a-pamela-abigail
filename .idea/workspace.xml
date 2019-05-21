@@ -8,7 +8,6 @@
       <change afterPath="$PROJECT_DIR$/Deberes/02-calculadora-http-cookies-segura/calculadora-cookies/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/views/inicio.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/views/inicio.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="158" selection-start-line="158" selection-end-line="158" />
+            <state relative-caret-position="255">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -84,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="29" />
     <option name="y" value="8" />
     <option name="width" value="1260" />
@@ -253,12 +252,12 @@
       <workItem from="1557861227171" duration="6374000" />
       <workItem from="1557947370230" duration="2854000" />
       <workItem from="1558408862908" duration="13271000" />
-      <workItem from="1558449883003" duration="1677000" />
+      <workItem from="1558449883003" duration="1995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87340000" />
+    <option name="totallyTimeSpent" value="87658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/views/inicio.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        <state relative-caret-position="255">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
         </state>
       </provider>
     </entry>
