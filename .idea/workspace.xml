@@ -8,11 +8,6 @@
       <change afterPath="$PROJECT_DIR$/Deberes/02-calculadora-http-cookies-segura/calculadora-cookies/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/views/inicio.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/src/app.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/src/main.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,17 +26,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/views/inicio.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="130" column="12" selection-start-line="130" selection-start-column="12" selection-end-line="130" selection-end-column="12" />
+            <state relative-caret-position="255">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/views/peliculas/estilos.ejs">
+        <entry file="file://$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/src/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="95" column="37" lean-forward="true" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
+            <state relative-caret-position="255">
+              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+              <folding>
+                <element signature="e#14#57#0" expanded="true" />
+                <element signature="e#277#305#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,9 +83,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="277" />
-    <option name="y" value="5" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="29" />
+    <option name="y" value="8" />
     <option name="width" value="1260" />
     <option name="height" value="788" />
   </component>
@@ -96,7 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,36 +106,6 @@
               <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
               <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
               <item name="01-http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
-              <item name="01-http" type="462c0819:PsiDirectoryNode" />
-              <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
-              <item name="01-http" type="462c0819:PsiDirectoryNode" />
-              <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="api-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
-              <item name="01-http" type="462c0819:PsiDirectoryNode" />
-              <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="api-web" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
-              <item name="01-http" type="462c0819:PsiDirectoryNode" />
-              <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="api-web" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="peliculas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
@@ -204,6 +172,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,7 +182,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="C:\Users\Pamela\Documents\GitHub\pachacama-simba-a-pamela-abigail\Deberes\01-calculadora-http\calculadora-http\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\Pamela\Documents\GitHub\pachacama-simba-a-pamela-abigail\Deberes\03-paginaWeb\pag-web\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -282,12 +251,13 @@
       <workItem from="1557342600461" duration="6124000" />
       <workItem from="1557861227171" duration="6374000" />
       <workItem from="1557947370230" duration="2854000" />
-      <workItem from="1558408862908" duration="12987000" />
+      <workItem from="1558408862908" duration="13271000" />
+      <workItem from="1558449883003" duration="1995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85379000" />
+    <option name="totallyTimeSpent" value="87658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -299,13 +269,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="277" y="5" width="1260" height="788" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50127226" side_tool="true" weight="0.24959083" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49593496" visible="true" weight="0.20458265" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49593496" visible="true" weight="0.18601191" />
       <window_info id="Structure" order="2" sideWeight="0.50406504" side_tool="true" weight="0.22655007" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5037202" side_tool="true" weight="0.30278233" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50446427" side_tool="true" weight="0.22913256" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32897863" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -316,7 +286,7 @@
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32897863" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32897863" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49627978" visible="true" weight="0.21374045" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4955357" visible="true" weight="0.22913256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -440,20 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/views/peliculas/inicio.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/views/inicio.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -485,16 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="6" />
-          <folding>
-            <element signature="e#277#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/views/peliculas/estilos.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-289">
@@ -502,10 +448,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/views/inicio.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/views/peliculas/inicio.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding>
+            <element signature="e#14#57#0" expanded="true" />
+            <element signature="e#277#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/views/inicio.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="130" column="12" selection-start-line="130" selection-start-column="12" selection-end-line="130" selection-end-column="12" />
+        <state relative-caret-position="255">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
         </state>
       </provider>
     </entry>
