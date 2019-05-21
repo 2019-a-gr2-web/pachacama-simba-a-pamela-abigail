@@ -1,12 +1,14 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get,Response } from '@nestjs/common';
 import { AppService } from './app.service';
 
-@Controller()
+@Controller('/pagWeb')
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get()
-  getHello(): string {
-    return this.appService.getHello();
+  @Get('inicio')
+  peliculas(@Response() res){
+    return res.render('inicio',{
+
+    });
   }
 }
