@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a279380-5fa0-48b0-9760-a5efb57af1be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/interfaces/trago.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.modules.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/views/tragos/crear-editar.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/views/tragos/lista-tragos.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Deberes/02-calculadora-http-cookies-segura/calculadora-cookies/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/views/inicio.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/publico/imagenes/w3schools.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/publico/imagenes/w3schools.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/views/inicio.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/views/inicio.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/main.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,68 +25,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.controller.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.modules.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/interfaces/trago.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/views/tragos/lista-tragos.ejs">
+        <entry file="file://$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/views/inicio.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="321">
+              <caret line="204" column="26" selection-start-line="204" selection-start-column="26" selection-end-line="204" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5587#5591#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#span#0;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5673#5677#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#1;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5777#5781#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#1;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5823#5827#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#2;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5927#5931#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#2;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5974#5978#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#3;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#3;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6062#6066#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#3;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6110#6114#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#4;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#4;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6214#6218#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#4;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6260#6264#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#5;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#5;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6368#6372#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#5;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6412#6416#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#6;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#6;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6504#6508#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#6;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6549#6553#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#7;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#7;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6653#6657#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#7;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6696#6700#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#8;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#8;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6791#6795#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#8;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6835#6839#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#9;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#9;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6943#6947#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#9;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6990#6994#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#10;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#10;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7094#7098#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#span#10;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7141#7145#1#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/src/main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+              <folding>
+                <element signature="e#14#57#0" expanded="true" />
+                <element signature="e#277#305#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,7 +116,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -134,17 +139,17 @@
         <option value="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/.gitignore" />
         <option value="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/src/app.controller.ts" />
         <option value="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/src/main.ts" />
-        <option value="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/views/inicio.ejs" />
         <option value="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.controller.ts" />
         <option value="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.modules.ts" />
         <option value="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.module.ts" />
         <option value="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/interfaces/trago.ts" />
         <option value="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.service.ts" />
         <option value="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/views/tragos/lista-tragos.ejs" />
+        <option value="$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/views/inicio.ejs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="29" />
     <option name="y" value="8" />
     <option name="width" value="1260" />
@@ -166,41 +171,53 @@
             <path>
               <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
               <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
-              <item name="01-http" type="462c0819:PsiDirectoryNode" />
+              <item name="Deberes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
               <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
-              <item name="01-http" type="462c0819:PsiDirectoryNode" />
-              <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="Deberes" type="462c0819:PsiDirectoryNode" />
+              <item name="03-paginaWeb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
               <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
-              <item name="01-http" type="462c0819:PsiDirectoryNode" />
-              <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="api-web" type="462c0819:PsiDirectoryNode" />
+              <item name="Deberes" type="462c0819:PsiDirectoryNode" />
+              <item name="03-paginaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="pag-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
               <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
-              <item name="01-http" type="462c0819:PsiDirectoryNode" />
-              <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="api-web" type="462c0819:PsiDirectoryNode" />
+              <item name="Deberes" type="462c0819:PsiDirectoryNode" />
+              <item name="03-paginaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="pag-web" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
+              <item name="Deberes" type="462c0819:PsiDirectoryNode" />
+              <item name="03-paginaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="pag-web" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="imagenes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
+              <item name="Deberes" type="462c0819:PsiDirectoryNode" />
+              <item name="03-paginaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="pag-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
               <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
-              <item name="01-http" type="462c0819:PsiDirectoryNode" />
-              <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="api-web" type="462c0819:PsiDirectoryNode" />
+              <item name="Deberes" type="462c0819:PsiDirectoryNode" />
+              <item name="03-paginaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="pag-web" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
-              <item name="MI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
@@ -292,12 +309,13 @@
       <workItem from="1557947370230" duration="2854000" />
       <workItem from="1558408862908" duration="13271000" />
       <workItem from="1558449883003" duration="2140000" />
-      <workItem from="1558465348017" duration="6854000" />
+      <workItem from="1558465348017" duration="7088000" />
+      <workItem from="1558504932076" duration="2126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94657000" />
+    <option name="totallyTimeSpent" value="97017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,21 +330,21 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" order="0" sideWeight="0.50127226" side_tool="true" weight="0.24959083" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49593496" visible="true" weight="0.18601191" />
-      <window_info id="Structure" order="2" sideWeight="0.50406504" side_tool="true" weight="0.22655007" />
+      <window_info id="Favorites" order="0" sideWeight="0.5057283" side_tool="true" weight="0.18601191" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4942717" visible="true" weight="0.18601191" />
+      <window_info id="Structure" order="2" sideWeight="0.5057283" side_tool="true" weight="0.18601191" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50446427" side_tool="true" weight="0.22913256" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32897863" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.5902613" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32897863" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32897863" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4955357" visible="true" weight="0.22913256" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4955357" visible="true" weight="0.22913256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -481,24 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/views/inicio.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1631">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-          <folding>
-            <element signature="e#14#57#0" expanded="true" />
-            <element signature="e#277#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/views/tragos/crear-editar.ejs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -525,8 +525,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="153">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.modules.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
@@ -540,40 +567,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.modules.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/views/tragos/lista-tragos.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <caret line="17" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding>
+            <element signature="e#14#57#0" expanded="true" />
+            <element signature="e#277#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deberes/03-paginaWeb/pag-web/views/inicio.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="204" column="26" selection-start-line="204" selection-start-column="26" selection-end-line="204" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5587#5591#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#span#0;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5673#5677#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#1;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5777#5781#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#1;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5823#5827#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#2;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5927#5931#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#2;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5974#5978#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#3;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6062#6066#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#3;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6110#6114#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#4;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6214#6218#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#4;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6260#6264#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#5;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#5;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6368#6372#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#5;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6412#6416#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#6;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#6;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6504#6508#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#6;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6549#6553#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#7;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#7;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6653#6657#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#7;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6696#6700#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#8;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#8;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6791#6795#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#8;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6835#6839#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#9;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#9;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6943#6947#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#9;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6990#6994#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#10;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#10;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7094#7098#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#span#10;n#div#0;n#tr#0;n#table#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7141#7145#1#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
