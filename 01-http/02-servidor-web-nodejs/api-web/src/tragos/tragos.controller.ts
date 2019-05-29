@@ -56,6 +56,10 @@ export class TragosController{
         @Body() trago:Trago,
         @Res() res,
     ){
+        trago.id=Number(trago.id)
+        this._tragosService.eliminarPorId(trago.id);
+        res.redirect('/api/traguito/lista');
+        console.log(trago);
 
     }
     }
