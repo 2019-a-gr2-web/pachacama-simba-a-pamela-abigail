@@ -18,10 +18,9 @@ export class TragosController{
     }
 
     @Get('crear')
-    crearTrago(
+        crearTrago(
         @Res() res
     ){
-
         res.render('tragos/crear-editar')
     }
 

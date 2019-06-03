@@ -1,0 +1,55 @@
+<h1>Formulario de Creación</h1>
+<p>Crear pelicula.</p>
+<form
+        action="/api/actor/crearPeli"
+        method="post"
+>
+
+    <label for="nombre">Nombres</label>
+    <input id="nombre"
+           name="nombre"
+           type="text"
+           value=""
+    >
+    <br>
+    <label for="apellido">Anio Lanzamineto</label>
+    <input id="anioLanzamiento"
+           name="anioLanzamineto"
+           type="number"
+           min="1800"
+           max="2019"
+           step="1"
+
+    >
+    <br>
+    <label for="rating">Rating</label>
+    <input id="rating"
+           name="rating"
+           type="number"
+           min="0"
+           max="10"
+           step="1"
+
+    >
+    <br>
+    <label for="actoresPrincipales">Actores Principales</label>
+    <input id="actoresPrincipales"
+           name="actoresPrincipales"
+           type="text"
+           value=""
+    >
+    <br>
+
+    <label for="sinopsis">Sinopsis</label>
+    <input id="sinopsis"
+           name="sinopsis"
+           type="text"
+           value=""
+    >
+    <br>
+
+    <a href="/api/actor/gestion-papa/:"+idActor><button type="button">Cancelar</button></a>
+
+    <button>Crear</button>
+
+</form>

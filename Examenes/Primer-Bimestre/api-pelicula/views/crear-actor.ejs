@@ -1,0 +1,46 @@
+
+<h1>Formulario de Creación</h1>
+<p>Crear actor.</p>
+<form
+        action="/api/actor/crear"
+        method="post"
+>
+
+    <label for="nombre">Nombres</label>
+    <input id="nombre"
+           name="nombre"
+           type="text"
+           value=""
+    >
+    <br>
+    <label for="apellido">Apellidos</label>
+    <input id="apellido"
+           name="apellido"
+           type="text"
+           value=""
+    >
+    <br>
+    <label for="fechaNacimiento">Fecha Nacimiento</label>
+    <input id="fechaNacimiento" name="fechaNacimiento" type="date">
+    <br>
+
+    <label for="numeroPeliculas">Numero Peliculas</label>
+    <input id="numeroPeliculas"
+           name="numeroPeliculas"
+           type="number"
+           min="0"
+           max="100"
+           step="1"
+    >
+
+    <br>
+    <label for="retirado">Retirado<input type="radio" name="retirado" value="true"> Si</label>
+    <label><input type="radio" name="retirado" value="false" checked> No </label>
+    <br>
+
+
+
+    <a href="/api/actor/gestion-papa"><button type="button">Cancelar</button></a>
+
+    <button>Crear</button>
+</form>
