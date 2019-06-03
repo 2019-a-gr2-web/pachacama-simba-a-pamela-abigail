@@ -1,0 +1,49 @@
+<style>
+    table,tr,td,th{
+        border: solid black 1px
+    }
+</style>
+<h1><p id="nombreUsuario" name="nombreUsuario" type="text"><%=nombreUsuario%></p></h1>
+<form action="/api/actor/login" method="get">
+    <button>Salir</button>
+</form>
+
+<form action="/api/actor/buscarPeli" method="Post">
+    <label for="nombrePelicula"></label>
+    <input id="nombrePelicula" name="nombrePelicula" type="text">
+    <button type="submit">Buscar</button>
+
+</form>
+
+<a href="/api/actor/crearPeli">
+    <button>Crear</button>
+</a>
+
+
+<table>
+    <tr>
+        <th>Nombres</th>
+        <th>Anio Lanzamiento</th>
+        <th>Rating</th>
+        <th>Actores Principales</th>
+        <th>Sinopsis</th>
+        <th>Acciones</th>
+    </tr>
+    <% arregloPeliculas.forEach((pelicula)=>{ %>
+    <tr>
+        <td> <%=pelicula.nombre%> </td>
+        <td> <%=pelicula.anioLanzamineto%> </td>
+        <td> <%=pelicula.rating%> </td>
+        <td> <%=pelicula.actoresPrincipales%> </td>
+        <td> <%=pelicula.sinopsis%> </td>
+        <td>
+            <form action="/api/actor/eliminarPeli"
+                  method="Post">
+                <input type="hidden" name="idActor" value="<%=idActor%>">
+                <button>Borrar</button>
+            </form>
+
+        </td>
+    </tr>
+    <% })%>
+</table>

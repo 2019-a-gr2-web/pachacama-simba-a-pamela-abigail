@@ -1,0 +1,53 @@
+<style>
+    table,tr,td,th{
+        border: solid black 1px
+    }
+</style>
+<h1><p id="nombreUsuario" name="nombreUsuario" type="text"><%=nombreUsuario%></p></h1>
+<form action="/api/actor/login" method="get">
+        <button>Salir</button>
+</form>
+
+<form action="/api/actor/buscar" method="Post">
+    <label for="nombreActor"></label>
+    <input id="nombreActor" name="nombreActor" type="text">
+    <button type="submit">Buscar</button>
+
+</form>
+
+    <a href="/api/actor/crear">
+        <button>Crear</button>
+    </a>
+
+
+<table>
+    <tr>
+        <th>Nombres</th>
+        <th>Apellidos</th>
+        <th>Fecha Nacimiento</th>
+        <th>Numero Peliculas</th>
+        <th>Retirado</th>
+        <th>Acciones</th>
+    </tr>
+    <% arregloActores.forEach((actor)=>{ %>
+    <tr>
+        <td> <%=actor.nombre%> </td>
+        <td> <%=actor.apellido%> </td>
+        <td> <%=actor.fechaNacimiento%> </td>
+        <td> <%=actor.numeroPeliculas%> </td>
+        <td> <%=actor.retirado%> </td>
+        <td>
+            <form action="/api/actor/gestion-papa/<%=actor.idActor%>"
+                  method="Get">
+                <button>Gestionar hijos</button>
+            </form>
+            <form action="/api/actor/eliminar"
+                  method="Post">
+                <input type="hidden" name="id" value="<%=actor.idActor%>">
+                <button>Borrar</button>
+            </form>
+
+        </td>
+    </tr>
+    <% })%>
+</table>
