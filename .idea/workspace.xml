@@ -17,11 +17,10 @@
       <change afterPath="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/gestion-pelicula.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/login.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/menu.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.controller.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.controller.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/tragos/tragos.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deberes/02-calculadora-http-cookies-segura/calculadora-cookies/src/app.controller.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Deberes/02-calculadora-http-cookies-segura/calculadora-cookies/src/app.controller.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/app.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/crear-pelicula.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/crear-pelicula.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/gestion-actor.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/gestion-actor.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/app.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-151">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="-252">
+              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -49,20 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/crear-pelicula.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/app.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1819">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="186">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
               <folding>
                 <element signature="e#0#75#0" expanded="true" />
               </folding>
@@ -71,10 +61,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/crear-pelicula.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="50" column="88" selection-start-line="50" selection-start-column="88" selection-end-line="50" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/gestion-pelicula.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="41" column="71" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="71" />
+            <state relative-caret-position="69">
+              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/gestion-actor.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -134,16 +142,16 @@
         <option value="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/login.ejs" />
         <option value="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/menu.ejs" />
         <option value="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/interfaces/actor.ts" />
-        <option value="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/app.service.ts" />
-        <option value="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/gestion-pelicula.ejs" />
         <option value="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/crear-actor.ejs" />
+        <option value="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/app.service.ts" />
+        <option value="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/crear-pelicula.ejs" />
         <option value="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/gestion-actor.ejs" />
         <option value="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/app.controller.ts" />
-        <option value="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/crear-pelicula.ejs" />
+        <option value="$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/gestion-pelicula.ejs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="29" />
     <option name="y" value="8" />
     <option name="width" value="1260" />
@@ -155,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,42 +196,6 @@
               <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
               <item name="api-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
-              <item name="01-http" type="462c0819:PsiDirectoryNode" />
-              <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="api-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tragos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
-              <item name="01-http" type="462c0819:PsiDirectoryNode" />
-              <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="api-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tragos" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
-              <item name="01-http" type="462c0819:PsiDirectoryNode" />
-              <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="api-web" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pachacama-simba-a-pamela-abigail" type="462c0819:PsiDirectoryNode" />
-              <item name="01-http" type="462c0819:PsiDirectoryNode" />
-              <item name="02-servidor-web-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="api-web" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="tragos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pachacama-simba-a-pamela-abigail" type="b2602c69:ProjectViewProjectNode" />
@@ -276,7 +249,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,12 +336,16 @@
       <workItem from="1558935025428" duration="643000" />
       <workItem from="1559143123342" duration="5295000" />
       <workItem from="1559491015397" duration="19317000" />
-      <workItem from="1559512429678" duration="25400000" />
+      <workItem from="1559512429678" duration="25693000" />
+      <workItem from="1559580292089" duration="583000" />
+      <workItem from="1559618851726" duration="584000" />
+      <workItem from="1559664117800" duration="10993000" />
+      <workItem from="1559676311407" duration="802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154472000" />
+    <option name="totallyTimeSpent" value="167727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -381,7 +357,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5057283" side_tool="true" weight="0.18601191" />
@@ -398,7 +374,7 @@
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4955357" visible="true" weight="0.19312602" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4955357" visible="true" weight="0.15384616" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -583,16 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="963">
-          <caret line="159" column="32" lean-forward="true" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
-          <folding>
-            <element signature="e#14#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/interfaces/cookie.ts" />
     <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/node_modules/express/lib/view.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -628,12 +594,8 @@
     <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/nodemon.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/dist/app.service.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/dist/tsconfig.build.tsbuildinfo">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/dist/app.service.js" />
+    <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/dist/tsconfig.build.tsbuildinfo" />
     <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/node_modules/ejs/lib/ejs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -716,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/interfaces/pelicula.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/crear-actor.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -730,44 +685,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/app.service.ts">
+    <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/interfaces/pelicula.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-151">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-http/02-servidor-web-nodejs/api-web/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="270" column="25" lean-forward="true" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/gestion-actor.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="45" column="54" lean-forward="true" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/gestion-pelicula.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="41" column="71" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/app.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1819">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#75#0" expanded="true" />
+            <element signature="e#14#137#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/crear-pelicula.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+        <state relative-caret-position="229">
+          <caret line="50" column="88" selection-start-line="50" selection-start-column="88" selection-end-line="50" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/app.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/gestion-actor.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examenes/Primer-Bimestre/api-pelicula/views/gestion-pelicula.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
         </state>
       </provider>
     </entry>

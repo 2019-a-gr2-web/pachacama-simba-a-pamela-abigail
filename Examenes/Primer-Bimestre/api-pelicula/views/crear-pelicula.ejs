@@ -47,8 +47,10 @@
            value=""
     >
     <br>
+    <label for="idActor"></label>
+    <input class="number" type="hidden" id="idActor" name="idActor" value="<%=idActor%>">
 
-    <a href="/api/actor/gestion-papa/:"+idActor><button type="button">Cancelar</button></a>
+    <a href="/api/actor/gestion-papa/<%=idActor%>"><button type="button">Cancelar</button></a>
 
     <button>Crear</button>
 

@@ -8,14 +8,14 @@
     <button>Salir</button>
 </form>
 
-<form action="/api/actor/buscarPeli" method="Post">
-    <label for="nombrePelicula"></label>
-    <input id="nombrePelicula" name="nombrePelicula" type="text">
+<form action="/api/actor/gestion-papa/<%=idActor%>" method="GET">
     <button type="submit">Buscar</button>
 
 </form>
 
 <a href="/api/actor/crearPeli">
+    <label for="idActor"></label>
+    <input class="texto" type="number" id="idActor" name="idActor" value="<%=idActor%>" hidden>
     <button>Crear</button>
 </a>
 
@@ -39,7 +39,9 @@
         <td>
             <form action="/api/actor/eliminarPeli"
                   method="Post">
-                <input type="hidden" name="idActor" value="<%=idActor%>">
+                <input type="hidden" name="idPelicula" value="<%=pelicula.idPelicula%>">
+                <label for="idActor"></label>
+                <input class="texto" type="number" id="idActor" name="idActor" value="<%=idActor%>" hidden>
                 <button>Borrar</button>
             </form>
 
