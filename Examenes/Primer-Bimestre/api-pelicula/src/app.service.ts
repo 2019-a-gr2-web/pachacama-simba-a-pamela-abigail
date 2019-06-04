@@ -58,13 +58,23 @@ export class AppService {
         }
     );
   }
-  buscarPorNombre(nombre: string): Actor {
-    return this.bddActores.find(
+  buscarPorNombre(nombre: string): Actor[] {
+    return  this.bddActores.filter(
         (actor) => {
           return actor.nombre.toUpperCase().includes(nombre.toUpperCase());
         }
     );
+
   }
+    buscarPorNombrePeli(nombre: string): Peliculas[] {
+        return this.bddPeliculas.filter(
+            (pelicula) => {
+                return pelicula.nombre.toUpperCase().includes(nombre.toUpperCase());
+            }
+        );
+
+    }
+
   eliminarPorId(id: number): Actor[] {
     const indice = this.bddActores.findIndex(
         (actor) => {
@@ -74,6 +84,15 @@ export class AppService {
     this.bddActores.splice(indice,1);
     return this.bddActores;
   }
+    eliminarPorIdPeli(id: number ): Peliculas[] {
+        const indice = this.bddPeliculas.findIndex(
+            (pelicula) => {
+                return pelicula.idPelicula === id
+            }
+        );
+        this.bddPeliculas.splice(indice,1);
+        return this.bddPeliculas;
+    }
 
 
 }

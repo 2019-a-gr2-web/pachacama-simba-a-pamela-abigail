@@ -1,4 +1,4 @@
-import { Controller, Get,Body, Post, Res, Req,Param} from '@nestjs/common';
+import {Controller, Get, Body, Post, Res, Req, Param, Query} from '@nestjs/common';
 import { AppService } from "./app.service";
 import {Actor} from "./interfaces/actor";
 import {Peliculas} from "./interfaces/pelicula";
@@ -64,12 +64,20 @@ export class AppController {
   @Get('gestion-papa/:idActor')
   gestionHijo(  @Param() par,
                 @Res() res,
-               @Req() req
+               @Req() req,
+                @Query() busqueda
   ){
     const cookieSegura = req.signedCookies.usuario;
-    const arregloPeliculas = this.appService.peli(par.idActor)
 
+        console.log(busqueda);
         if (cookieSegura) {
+          let arregloPeliculas = this.appService.peli(par.idActor)
+
+          if(busqueda.busqueda){
+            arregloPeliculas = this.appService.buscarPorNombrePeli(busqueda.busqueda)
+          }
+
+
           res.render('gestion-pelicula', {
             nombreUsuario: cookieSegura,
             arregloPeliculas: arregloPeliculas,
@@ -116,33 +124,32 @@ export class AppController {
       @Res() res,
       @Param() par,
   ){
-    res.render('crear-pelicula',{idActor:par.idActor} )
+    res.render('crear-pelicula',{idActor: par.idActor} )
+    console.log(par.idActor)
   }
 
   @Post('crearPeli')
-  crearPeliPost(
+  crearPeliPost(@Body('idActor') idActor:number,
       @Body() pelicula:Peliculas,
-      @Param() par,
       @Res() res
-
   ) {
     pelicula.anioLanzamineto = Number(pelicula.anioLanzamineto);
     pelicula.rating =Number(pelicula.rating);
-    const idActor=par.idActor;
+    pelicula.idActor = Number(idActor);
     this.appService.crearPelicula(pelicula);
-    res.redirect('/api/actor/gestion-papa/'+idActor);
-    console.log(pelicula);
+    res.redirect('/api/actor/gestion-papa/'+pelicula.idActor);
+    console.log(Number(idActor));
 
   }
     @Post('buscar')
     buscarActor(
-        @Body() actor:Actor,
+        @Body('nombre') nombre:string,
         @Res() res,
     ){
-      actor.nombre =String(actor.nombre)
-        this.appService.buscarPorNombre(actor.nombre);
+
+        this.appService.buscarPorNombre(nombre);
         res.redirect('/api/actor/gestion-papa');
-        console.log(actor);
+        console.log(nombre);
 
     }
   @Post('eliminar')
@@ -158,25 +165,24 @@ export class AppController {
   }
 
   @Post('buscarPeli')
-  buscarPeli(@Param() par,
-      @Body() pelicula:Peliculas,
+  buscarPeli(@Body('nombre') nombre:string,
+             @Body('idActor') idActor:number,
       @Res() res,
   ){
-    pelicula.nombre =String(pelicula.nombre);
-    const idActor=par.idActor;
-    this.appService.buscarPorNombre(pelicula.nombre);
+
+    this.appService.buscarPorNombrePeli(nombre);
     res.redirect('/api/actor/gestion-papa/'+idActor);
-    console.log(pelicula);
+    console.log(idActor);
 
   }
   @Post('eliminarPeli')
-  eliminarPeli(@Param() par,
+  eliminarPeli(@Body('idActor') idActor:number,
       @Body() pelicula:Peliculas,
       @Res() res,
   ){
     pelicula.idPelicula =Number(pelicula.idPelicula)
-    this.appService.eliminarPorId(pelicula.idPelicula);
-    const idActor=par.idActor;
+
+    this.appService.eliminarPorIdPeli(pelicula.idPelicula);
     res.redirect('/api/actor/gestion-papa/'+idActor);
     console.log(pelicula);
 
