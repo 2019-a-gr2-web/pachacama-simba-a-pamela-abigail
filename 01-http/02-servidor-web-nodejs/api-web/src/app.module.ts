@@ -2,9 +2,26 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import {TragosModules} from "./tragos/tragos.modules";
+import { TypeOrmModule } from '@nestjs/typeorm';
+import {TragosEntity} from "./tragos/tragos.entity";
 
 @Module({
-  imports: [TragosModules],
+  imports: [
+      TragosModules,
+    TypeOrmModule.forRoot({
+      name: 'default', // nombre cadena conexion por defecto de typeorm
+      type: 'mysql',
+      host: 'localhost',
+      port: 3306,
+      username: 'root',
+      password: 'root',
+      database: 'test',
+      entities: [
+          TragosEntity
+      ],
+      synchronize: true,
+    }),
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
