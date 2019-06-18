@@ -4,6 +4,7 @@ import {Trago} from "./interfaces/trago";
 import {InjectRepository} from "@nestjs/typeorm";
 import {TragosEntity} from "./tragos.entity";
 import {Repository} from "typeorm";
+import {promises} from "fs";
 
 
 @Injectable()
@@ -13,7 +14,7 @@ export class TragosService {
     recnum = 1;
     constructor(@InjectRepository(TragosEntity)
                 private readonly _tragosRepository: Repository<TragosEntity>,){
-
+    console.log("Line º +")
         const traguito:Trago={
             nombre:'Pilsener',
             gradosAlcohol:4.3,
@@ -23,7 +24,7 @@ export class TragosService {
         };
         const objetoEntidad= this._tragosRepository.create(traguito);
         this._tragosRepository
-            .insert(objetoEntidad)
+            .save(objetoEntidad) //promesa
             .then((datos)=>{
                 console.log('Dato creado:', datos);
             })
@@ -34,13 +35,18 @@ export class TragosService {
 
         this.crear(traguito);
     }
-    crear(nuevoTrago: Trago): Trago{
-        nuevoTrago.id = this.recnum;
-        this.recnum++;
-        this.bddTragos.push(nuevoTrago);
-        return nuevoTrago;
-    }
+    crear(nuevoTrago: Trago): Promise<Trago>{
 
+        //nuevoTrago.id = this.recnum;
+        //this.recnum++;
+        //this.bddTragos.push(nuevoTrago);
+        //return nuevoTrago;
+        const objetoEntidad = this._tragosRepository.create(nuevoTrago);
+       return this._tragosRepository.save(objetoEntidad); //promesa
+    }
+    buscar(parametrosBusqueda?): Promise<Trago []>{
+        return  this._tragosRepository.find(parametrosBusqueda);
+    }
     buscarPorId(id: number): Trago {
         return this.bddTragos.find(
             (trago) => {
