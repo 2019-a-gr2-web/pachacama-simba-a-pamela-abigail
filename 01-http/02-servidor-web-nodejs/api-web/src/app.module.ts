@@ -29,6 +29,7 @@ import {DistribuidorEntity} from "./distribuidor/distribuidor.entity";
 
       ],
       synchronize: true,
+        dropSchema: false
     }),
   ],
   controllers: [AppController],
