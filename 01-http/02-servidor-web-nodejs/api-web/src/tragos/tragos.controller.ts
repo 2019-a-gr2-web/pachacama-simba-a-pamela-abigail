@@ -27,7 +27,7 @@ export class TragosController {
         @Query('mensaje') mensaje: string
     ) {
         res.render('tragos/crear-editar', {
-            mensaje:mensaje
+            mensaje:mensaje, arregloTragos:undefined
 }
 )
     }

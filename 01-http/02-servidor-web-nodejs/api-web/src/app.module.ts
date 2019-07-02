@@ -8,11 +8,12 @@ import {DistribuidorModule} from "./distribuidor/distribuidor.module";
 import {FiestaModule} from "./fiesta/fiesta.module";
 import {FiestaEntity} from "./fiesta/fiesta.entity";
 import {DistribuidorEntity} from "./distribuidor/distribuidor.entity";
+import {ChatModule} from "./chat/chat.module";
 
 @Module({
   imports: [
-      TragosModules,
-      DistribuidorModule,
+      //TragosModules,
+     /* DistribuidorModule,
       FiestaModule,
     TypeOrmModule.forRoot({
       name: 'default', // nombre cadena conexion por defecto de typeorm
@@ -30,7 +31,8 @@ import {DistribuidorEntity} from "./distribuidor/distribuidor.entity";
       ],
       synchronize: true,
         dropSchema: false
-    }),
+    }),*/
+     ChatModule
   ],
   controllers: [AppController],
   providers: [AppService],
