@@ -61,14 +61,26 @@ export class TragosService {
             }
         );
     }
-    eliminarPorId(id: number): Trago[] {
-        const indice = this.bddTragos.findIndex(
-            (trago) => {
-                return trago.id === id
-            }
-        );
-        this.bddTragos.splice(indice,1);
-        return this.bddTragos;
+
+    editar(idParaEditar):Promise<Trago>{
+        return this._tragosRepository.findOne(idParaEditar)
+
+    }
+    editarTrago(editarTrago:Trago):Promise<Trago>{
+        return this._tragosRepository.save(editarTrago)
+
+    }
+
+    async eliminarPorId(id: number):Promise<Trago>{
+        let objetoEntidad =await this._tragosRepository.findOne(id);
+        return this._tragosRepository.remove(objetoEntidad);
+        // const indice = this.bddTragos.findIndex(
+        //     (trago)=>{
+        //         return trago.id === id
+        //     }
+        // );
+        // this.bddTragos.splice(indice,1);
+        // return this.bddTragos;
     }
 
     actualizar(tragoActualizado: Trago, id:number) {
