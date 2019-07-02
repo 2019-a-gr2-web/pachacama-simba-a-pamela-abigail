@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wensockets</title>
+</head>
+<body>
+    <!--<script src="socket.io.js"></script>-->
+    <script src="/websockets/socket.io.js"></script>
+    <script>
+        const url = 'http://localhost:3001/websockets';
+        const socket = io(url);
+        console.log('Ya mismito nos conetamos :D');
+        socket.on(
+            'connect', //nombre del evento
+            ()=>{
+                console.log('Estamos conectados');
+
+            }
+        );
+
+        socket.on(
+            'saludaron',
+            (data) => {
+                console.log('Nos saludaron.',data);
+            }
+        );
+
+        function peticionHolaMundo() {
+            const nombreMetodo = 'Hola mundo';
+            const datos = {
+              nombre: Pamela
+            };
+        socket.emit(
+            nombreMetodo,
+            datos,
+            (respuesta)=>{
+                console.log(respuesta);
+            }
+        );
+        }
+
+    </script>
+
+</body>
+</html>
