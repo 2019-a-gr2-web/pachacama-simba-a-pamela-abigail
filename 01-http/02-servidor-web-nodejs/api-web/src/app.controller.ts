@@ -1,13 +1,66 @@
 // @ts-ignore
-import { Controller, Get, Post, HttpCode, Put,Delete, Headers, Query, Param, Body, Request,Response,Session} from '@nestjs/common';
+import {
+    Controller,
+    Get,
+    Post,
+    HttpCode,
+    Put,
+    Delete,
+    Headers,
+    Query,
+    Param,
+    Body,
+    Request,
+    Response,
+    Session,
+    Render, UseInterceptors, UploadedFiles, UploadedFile, Res
+} from '@nestjs/common';
 import { AppService } from './app.service';
 
 import * as Joi from '@hapi/joi'
+import {FileInterceptor} from "@nestjs/platform-express";
 @Controller('/api')
 export class AppController {
     arregloUsuario =[];
 
   constructor(private readonly appService: AppService) {}
+
+  @Get('subirArchivo/:idTrago')
+  @Render('archivo')
+  subirArchivo(
+      @Param('idTrago') idtrago
+  ){
+    return{
+      idTrago: idtrago
+    };
+  }
+  @Post('subirArchivo/:idTrago')
+  @UseInterceptors(
+      FileInterceptor('imagen',{
+        dest: __dirname +'/../archivos'
+      })
+  )
+
+  subirArchivoPost(
+      @Param('idTrago') idTrago,
+      @UploadedFile() archivo
+  ){
+    console.log(archivo);
+    return{mensaje: 'ok'};
+  }
+
+  @Get('descargarArchivo/:idTrago')
+  descargarArchivo(
+      @Res() res,
+      @Param('idTrago') idTrago
+  ){
+      const originalname= 'mod.jpg';
+      const path= 'C:\\Users\\Pamela\\Documents\\GitHub\\pachacama-simba-a-pamela-abigail\\01-http\\02-servidor-web-nodejs\\api-web\\archivos\\90ea7fb24f99cd404423f128f3aa0e2d';
+      res.download(path,originalname);
+  }
+
+
+
   @Get('session')
   session(
       @Query('nombre') nombre,
