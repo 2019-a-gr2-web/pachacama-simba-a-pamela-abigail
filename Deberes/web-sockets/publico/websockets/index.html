@@ -14,48 +14,62 @@
 
     <h1 id="titulo">Escoge el par </h1>
 
-    <table>
+    <table width="400px"
+           height="400px">
         <tr>
-            <th onclick="clickImagen()"><img src="/imagenes/gadget.png"
+            <td><img src="/imagenes/gadget.png"
                      alt="inspector gadget"
                      width="200px"
-                     height="200px" id="1.1"></th>
-            <th><img src="/imagenes/bulbasaur.png"
+                     height="200px">
+            </td>
+            <td id="2"><img src="/imagenes/bulbasaur.png"
                      alt="bulbasaur"
                      width="200px"
-                     height="200px"></th>
-            <th><img src="/imagenes/Patamon.jpg"
+                     height="200px"  ></td>
+            <td><img src="/imagenes/Patamon.jpg"
                      alt="patamon"
                      width="200px"
-                     height="200px"></th>
-            <th>4</th>
+                     height="200px" id="3" ></td>
+            <td><img src="/imagenes/serena.jpg"
+                     alt="pegaso"
+                     width="200px"
+                     height="200px" id="4" ></td>
         </tr>
         <tr>
             <td><img src="/imagenes/magooscuro.jpg"
                      alt="mago oscuro"
                      width="200px"
-                     height="200px"></td>
+                     height="200px" id="5" ></td>
             <td><img src="/imagenes/magooscuro.jpg"
                      alt="mago oscuro"
                      width="200px"
-                     height="200px"></td>
-            <td>7</td>
+                     height="200px" id="6" ></td>
+            <td><img src="/imagenes/serena.jpg"
+                     alt="pegaso"
+                     width="200px"
+                     height="200px" id="7" ></td>
             <th><img src="/imagenes/Patamon.jpg"
                      alt="patamon"
                      width="200px"
-                     height="200px"></th>
+                     height="200px" id="8" ></th>
         </tr>
         <tr>
             <td><img src="/imagenes/bulbasaur.png"
                      alt="bulbasaur"
                      width="200px"
-                     height="200px"></td>
-            <td>10</td>
+                     height="200px" id="9" ></td>
+            <td><img src="/imagenes/pegaso.jpg"
+                     alt="pegaso"
+                     width="200px"
+                     height="200px" id="10" ></td>
             <td><img src="/imagenes/gadget.png"
                      alt="inspector gadget"
                      width="200px"
-                     height="200px" id="1.2"></td>
-            <th>12</th>
+                     height="200px" id="11"></td>
+            <th><img src="/imagenes/pegaso.jpg"
+                     alt="pegaso"
+                     width="200px"
+                     height="200px" id="12" ></th>
         </tr>
     </table>
 
@@ -77,7 +91,11 @@
         titulo.onclick = () =>{
             console.log('Diste click al titulo ;( ');
         };
-
+        const imagen = document.getElementById('1');
+        imagen.hidden;
+        imagen.onclick= () =>{
+            console.log('ayuda plox ;( ');
+        };
 
         function chattxt (){
             const valor = document.getElementById('chat-texto');
@@ -104,10 +122,7 @@
             etiqueta.appendChild(elementoHTML);
         }
 
-        function clickImagen() {
-            const
-            alert('Cuidado!!!!');
-        }
+
 
     </script>
 
