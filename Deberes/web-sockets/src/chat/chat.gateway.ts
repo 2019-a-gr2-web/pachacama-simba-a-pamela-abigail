@@ -11,7 +11,7 @@ export class ChatGateway {
         console.log('Nos hacen la peticion');
         console.log(this.server);
         cliente.broadcast.emit('saludaron', data);
-        return 'Hola ' + data.nombre;
+        return 'Hola ' +data.id+data.name;
     }
     constructor() {
         console.log(this.server);
