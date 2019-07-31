@@ -1,0 +1,59 @@
+<% const nombreUsuario = nombre;%>
+<%- include('menuAdmin', {username: nombreUsuario})%>
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Examen</title>
+</head>
+<body>
+<form action="/examen/buscar" method="get">
+    <label for="chasis">chasis</label>
+    <input id="chasis" name="chasis" type="number" >
+    <label for="nombreModelo">modelo</label>
+    <input id="nombreModelo" name="nombreModelo" type="text" >
+    <input id="idUsuario" name="idUsuario" type="hidden" value="<%=idUsuario%>" >
+    <button>Buscar</button>
+
+</form>
+
+<form action="/examen/crearAuto/<%=idUsuario%>" method="get">
+    <button>Crear</button>
+</form>
+<table>
+    <tr>
+        <th>Chasis</th>
+        <th>Nombre Marca</th>
+        <th>Color uno</th>
+        <th>Color dos</th>
+        <th>Nombre Modelo</th>
+        <th>Anio</th>
+        <th>Costo</th>
+        <th>Accion</th>
+    </tr>
+    <%arrayAuto.forEach((auto)=>{%>
+    <tr>
+        <td><%=auto.chasis%></td>
+        <td><%=auto.nombreMarca%></td>
+        <td><%=auto.colorUno%></td>
+        <td><%=auto.colorDos%></td>
+        <td><%=auto.nombreModelo%></td>
+        <td><%=auto.anio%></td>
+        <td><%=auto.costo%></td>
+        <td>
+            <form action="/examen/editar/<%=auto.idAuto%>" method="get">
+                <button>Actualizar</button>
+            </form>
+
+            <form action="/examen/eliminar/<%=auto.idAuto%>" method="post">
+                     <button>Eliminar</button>
+            </form>
+        </td>
+    </tr>
+    <%})%>
+</table>
+</body>
+</html>

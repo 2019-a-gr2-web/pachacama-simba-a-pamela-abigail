@@ -1,0 +1,37 @@
+<% const nombreUsuario = nombre;%>
+<% const rolUsuario = rol;%>
+<%if(rolUsuario==1){%>
+    <%- include('menuAdmin', {username: nombreUsuario})%>
+<%}else{%>
+    <%if(rolUsuario==2){%>
+       <%- include('menuConductor', {username: nombreUsuario})%>
+    <%}else{%>
+        <%- include('menuDespachador', {username: nombreUsuario})%>
+    <%}%>
+<%}%>
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Examen</title>
+</head>
+<body>
+<div class="container">
+    <%if(rolUsuario==1){%>
+        <h1>Bienvenido</h1>
+        <p>Para comenzar puedes dar clic en <a href="verConductores">Ver conductores</a></p>
+    <%}else{%>
+        <%if(rolUsuario==2){%>
+            <h1>Bienvenido Conductor</h1>
+            <p>Clic para ver tus autos <a href="verAutoConductor/<%=idUsuario%>">ver Autos</a></p>
+        <%}else{%>
+            <h1>Bienvenido Despachador</h1>
+            <p>Clic para ver los pedidos <a href="pedidos">ver pedidos</a></p>
+        <%}%>
+    <%}%>
+</div>
+</body>
+</html>

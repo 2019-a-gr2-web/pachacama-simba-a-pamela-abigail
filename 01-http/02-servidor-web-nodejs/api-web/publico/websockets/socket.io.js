@@ -3978,7 +3978,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  // transport name
 	  query.transport = name;
 
-	  // session id if we already have one
+	  // sessions id if we already have one
 	  if (this.id) query.sid = this.id;
 
 	  var transport = new transports[name]({
@@ -4523,7 +4523,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // set ready state
 	    this.readyState = 'closed';
 
-	    // clear session id
+	    // clear sessions id
 	    this.id = null;
 
 	    // emit close event

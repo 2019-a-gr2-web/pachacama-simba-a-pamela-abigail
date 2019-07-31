@@ -17,56 +17,56 @@
     <table width="400px"
            height="400px">
         <tr>
-            <td ><img src="/imagenes/fondo.jpg"
+            <td  ><img src="/imagenes/fondo.jpg"
                      name="gadget"
                      width="200px"
                      height="200px" id="1" onclick="imagen(this.id, this.name)"   >
             </td>
-            <td><img src="/imagenes/fondo.jpg"
+            <td ><img src="/imagenes/fondo.jpg"
                      name="bulbasaur"
                      width="200px"
                      height="200px" id="2" onclick="imagen(this.id, this.name)"></td>
-            <td><img src="/imagenes/fondo.jpg"
+            <td ><img src="/imagenes/fondo.jpg"
                      name="patamon"
                      width="200px"
                      height="200px" id="3" onclick="imagen(this.id, this.name)"></td>
-            <td><img src="/imagenes/fondo.jpg"
+            <td ><img src="/imagenes/fondo.jpg"
                      name="serena"
                      width="200px"
                      height="200px" id="4" onclick="imagen(this.id, this.name)"></td>
         </tr>
         <tr>
-            <td><img src="/imagenes/fondo.jpg"
+            <td ><img src="/imagenes/fondo.jpg"
                      name="mago"
                      width="200px"
                      height="200px" id="5" onclick="imagen(this.id, this.name)"></td>
-            <td><img src="/imagenes/fondo.jpg"
+            <td ><img src="/imagenes/fondo.jpg"
                      name="mago"
                      width="200px"
                      height="200px" id="6" onclick="imagen(this.id, this.name)"></td>
-            <td><img src="/imagenes/fondo.jpg"
+            <td ><img src="/imagenes/fondo.jpg"
                      name="serena"
                      width="200px"
                      height="200px" id="7" onclick="imagen(this.id, this.name)"></td>
-            <th><img src="/imagenes/fondo.jpg"
+            <td ><img src="/imagenes/fondo.jpg"
                      name="patamon"
                      width="200px"
-                     height="200px" id="8" onclick="imagen(this.id, this.name)" ></th>
+                     height="200px" id="8" onclick="imagen(this.id, this.name)" ></td>
         </tr>
         <tr>
-            <td><img src="/imagenes/fondo.jpg"
+            <td ><img src="/imagenes/fondo.jpg"
                      name="bulbasaur"
                      width="200px"
                      height="200px" id="9"onclick="imagen(this.id, this.name)" ></td>
-            <td><img src="/imagenes/fondo.jpg"
+            <td ><img src="/imagenes/fondo.jpg"
                      name="pegaso"
                      width="200px"
                      height="200px" id="10" onclick="imagen(this.id, this.name)" ></td>
-            <td><img src="/imagenes/fondo.jpg"
+            <td ><img src="/imagenes/fondo.jpg"
                      name="gadget"
                      width="200px"
                      height="200px" id="11" onclick="imagen(this.id, this.name)"></td>
-            <th><img src="/imagenes/fondo.jpg"
+            <th ><img src="/imagenes/fondo.jpg"
                      name="pegaso"
                      width="200px"
                      height="200px" id="12"onclick="imagen(this.id, this.name)" ></th>
@@ -81,6 +81,7 @@
 
 
     <script>
+
         const titulo = document.getElementById('titulo');
         titulo.style.backgroundColor = 'yellow';
         titulo.onclick = () =>{
@@ -88,9 +89,10 @@
         };
 
         function imagen(id, name) {
-            const imagen = document.getElementById(id);
-            const nameImagen = name;
-            console.log(name);
+
+                const imagen = document.getElementById(id);
+                const nameImagen = name;
+                console.log(name);
                 if (nameImagen === 'gadget') {
                     imagen.src = "/imagenes/gadget.png";
                     imagen.alt = "inspector gadget";
@@ -127,43 +129,17 @@
                     imagen.width = "200";
                     imagen.height = "200";
                 }
-            peticionHolaMundo(id, name);
+
+                peticionHolaMundo(id, name);
+
         }
-
-
-
-        function chattxt (){
-            const valor = document.getElementById('chat-texto');
-            const texto = valor.value;
-            console.log(texto);
-
-            const idContenedor = 'contenedor-chat';
-            const nombreEtiquetaHTMLChat = "p";
-            const parrafo = document.createElement(nombreEtiquetaHTMLChat);
-            const contenidoHTML =`
-            <div class="alert alert-primary text-right" role="alert">
-           ${texto}
-            </div>
-            `;
-            parrafo.innerHTML = contenidoHTML;
-            anadirEtiqueta(idContenedor,parrafo);
-           // peticionHolaMundo(texto);
-
-
-        };
-
-        function anadirEtiqueta(idEtiqueta, elementoHTML) {
-            const etiqueta = document.getElementById(idEtiqueta);
-            etiqueta.appendChild(elementoHTML);
-        }
-
-
 
     </script>
 
     <!--<script src="socket.io.js"></script>-->
     <script src="/websockets/socket.io.js"></script>
     <script>
+
         const url = 'http://localhost:3001/websockets';
         const socket = io(url);
         console.log('Ya mismito nos conetamos :D');
@@ -184,18 +160,20 @@
         );
 
         function peticionHolaMundo(id,name) {
-            const nombreMetodo = 'holaMundo';
-            const datos = {
-                id: id,
-                name: name
-            };
-        socket.emit(
-            nombreMetodo,
-            datos,
-            (respuesta)=>{
-                console.log(respuesta);
-            }
-        );
+                const nombreMetodo = 'holaMundo';
+                const datos = {
+                    id: id,
+                    name: name
+                };
+                socket.emit(
+                    nombreMetodo,
+                    datos,
+                    (respuesta) => {
+                        console.log(respuesta);
+                    }
+                );
+
+
         }
 
     </script>
