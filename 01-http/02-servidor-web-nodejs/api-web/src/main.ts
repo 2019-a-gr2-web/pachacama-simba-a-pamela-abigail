@@ -19,7 +19,7 @@ async function bootstrap() {
   app.use(express.static('publico'));
   app.use(
       session({
-        name: 'server-session-id',
+        name: 'server-sessions-id',
         secret: 'No sera de tomar un traguito',
         resave: false,
         saveUninitialized: true,

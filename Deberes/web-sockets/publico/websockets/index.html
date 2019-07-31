@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Websockets</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        table,tr,td,th{
+            border: solid black 1px
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="titulo">Escoge el par </h1>
+
+    <table width="400px"
+           height="400px">
+        <tr>
+            <td  ><img src="/imagenes/fondo.jpg"
+                     name="gadget"
+                     width="200px"
+                     height="200px" id="1" onclick="imagen(this.id, this.name)"   >
+            </td>
+            <td ><img src="/imagenes/fondo.jpg"
+                     name="bulbasaur"
+                     width="200px"
+                     height="200px" id="2" onclick="imagen(this.id, this.name)"></td>
+            <td ><img src="/imagenes/fondo.jpg"
+                     name="patamon"
+                     width="200px"
+                     height="200px" id="3" onclick="imagen(this.id, this.name)"></td>
+            <td ><img src="/imagenes/fondo.jpg"
+                     name="serena"
+                     width="200px"
+                     height="200px" id="4" onclick="imagen(this.id, this.name)"></td>
+        </tr>
+        <tr>
+            <td ><img src="/imagenes/fondo.jpg"
+                     name="mago"
+                     width="200px"
+                     height="200px" id="5" onclick="imagen(this.id, this.name)"></td>
+            <td ><img src="/imagenes/fondo.jpg"
+                     name="mago"
+                     width="200px"
+                     height="200px" id="6" onclick="imagen(this.id, this.name)"></td>
+            <td ><img src="/imagenes/fondo.jpg"
+                     name="serena"
+                     width="200px"
+                     height="200px" id="7" onclick="imagen(this.id, this.name)"></td>
+            <td ><img src="/imagenes/fondo.jpg"
+                     name="patamon"
+                     width="200px"
+                     height="200px" id="8" onclick="imagen(this.id, this.name)" ></td>
+        </tr>
+        <tr>
+            <td ><img src="/imagenes/fondo.jpg"
+                     name="bulbasaur"
+                     width="200px"
+                     height="200px" id="9"onclick="imagen(this.id, this.name)" ></td>
+            <td ><img src="/imagenes/fondo.jpg"
+                     name="pegaso"
+                     width="200px"
+                     height="200px" id="10" onclick="imagen(this.id, this.name)" ></td>
+            <td ><img src="/imagenes/fondo.jpg"
+                     name="gadget"
+                     width="200px"
+                     height="200px" id="11" onclick="imagen(this.id, this.name)"></td>
+            <th ><img src="/imagenes/fondo.jpg"
+                     name="pegaso"
+                     width="200px"
+                     height="200px" id="12"onclick="imagen(this.id, this.name)" ></th>
+        </tr>
+    </table>
+
+    <div id="contenedor-chat">
+    </div>
+        <label for="chat-texto">Texto</label>
+        <input id="chat-texto" type="text">
+        <button onclick="chattxt()">Anadir chat</button>
+
+
+    <script>
+
+        const titulo = document.getElementById('titulo');
+        titulo.style.backgroundColor = 'yellow';
+        titulo.onclick = () =>{
+            console.log('Diste click al titulo ;( ');
+        };
+
+        function imagen(id, name) {
+
+                const imagen = document.getElementById(id);
+                const nameImagen = name;
+                console.log(name);
+                if (nameImagen === 'gadget') {
+                    imagen.src = "/imagenes/gadget.png";
+                    imagen.alt = "inspector gadget";
+                    imagen.width = "200";
+                    imagen.height = "200";
+                }
+                if (nameImagen === 'bulbasaur') {
+                    imagen.src = "/imagenes/bulbasaur.png";
+                    imagen.alt = "bulbasaur";
+                    imagen.width = "200";
+                    imagen.height = "200";
+                }
+                if (nameImagen === 'pegaso') {
+                    imagen.src = "/imagenes/pegaso.jpg";
+                    imagen.alt = "pegaso";
+                    imagen.width = "200";
+                    imagen.height = "200";
+                }
+                if (nameImagen === 'patamon') {
+                    imagen.src = "/imagenes/Patamon.jpg";
+                    imagen.alt = "patamon";
+                    imagen.width = "200";
+                    imagen.height = "200"
+                }
+                if (nameImagen === 'serena') {
+                    imagen.src = "/imagenes/serena.jpg";
+                    imagen.alt = "serena";
+                    imagen.width = "200";
+                    imagen.height = "200";
+                }
+                if (nameImagen === 'mago') {
+                    imagen.src = "/imagenes/magooscuro.jpg";
+                    imagen.alt = "mago oscuro";
+                    imagen.width = "200";
+                    imagen.height = "200";
+                }
+
+                peticionHolaMundo(id, name);
+
+        }
+
+    </script>
+
+    <!--<script src="socket.io.js"></script>-->
+    <script src="/websockets/socket.io.js"></script>
+    <script>
+
+        const url = 'http://localhost:3001/websockets';
+        const socket = io(url);
+        console.log('Ya mismito nos conetamos :D');
+        socket.on(
+            'connect', //nombre del evento
+            ()=>{
+                console.log('Estamos conectados');
+            }
+        );
+
+        socket.on(
+            'saludaron',
+            (data) => {
+                console.log('Nos saludaron.',data)
+               imagen(data.id, data.name);
+
+            }
+        );
+
+        function peticionHolaMundo(id,name) {
+                const nombreMetodo = 'holaMundo';
+                const datos = {
+                    id: id,
+                    name: name
+                };
+                socket.emit(
+                    nombreMetodo,
+                    datos,
+                    (respuesta) => {
+                        console.log(respuesta);
+                    }
+                );
+
+
+        }
+
+    </script>
+
+</body>
+</html>

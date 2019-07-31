@@ -1,0 +1,49 @@
+<% const nombreUsuario = nombre;%>
+<%- include('menuAdmin', {username: nombreUsuario})%>
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Examen</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Cedula/RUC</th>
+        <th>Fecha nacimiento</th>
+        <th>Numeros Autos</th>
+        <th>Licencia valida</th>
+        <th>Direccion</th>
+        <th>telefono</th>
+        <th>Accion</th>
+    </tr>
+    <%arrayConductores.forEach((conductor)=>{%>
+    <tr>
+        <td><%=conductor.nombre%></td>
+        <td><%=conductor.apellido%></td>
+        <td><%=conductor.cedula%></td>
+        <td><%=conductor.fechaNacimiento%></td>
+        <td><%=conductor.numeroAutos%></td>
+        <td><%if(conductor.licenciaValida==1){%>
+            true
+            <%}else{%>
+            false
+            <%}%></td>
+        <td><%=conductor.direccion%></td>
+        <td><%=conductor.telefono%></td>
+        <td>
+            <form action="/examen/verAuto/<%=conductor.idUsuario%>" method="get">
+                <button>Ver</button>
+            </form>
+        </td>
+    </tr>
+    <%})%>
+</table>
+</body>
+</html>
